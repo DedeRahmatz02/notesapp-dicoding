@@ -3,3 +3,4 @@ notes-api-web-server.pem
 .env
 .prod.env
 postman
+src/api/uploads/file
