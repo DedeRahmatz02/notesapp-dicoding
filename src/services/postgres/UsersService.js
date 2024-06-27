@@ -38,6 +38,7 @@ class UserService {
     };
 
     const result = await this._pool.query(query);
+    console.log(result.rows.length);
 
     if (result.rows.length > 0) {
       throw new InvariantError(
